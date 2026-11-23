@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#1f3f8f">
+<title>ゼネコン帳票 取込（試作）</title>
+<link rel="stylesheet" href="app.css?v=2026112305">
+<style id="pageStyle"></style>
+<script src="vendor/pdf.min.js?v=3.11.174"></script>
+<script src="date-stamp.js?v=2026112305"></script>
+</head>
+<body>
+<header class="top">
+  <a href="#/" class="brand"><span class="app-name">ゼネコン帳票</span><span class="sub">取込・記入（試作）</span></a>
+  <span class="sp"></span>
+  <button type="button" class="btn onDark" id="btnProfile">共通情報</button>
+</header>
+<main id="view"></main>
+<dialog id="dlgProfile" class="dlg"></dialog>
+<div id="toast" role="status" aria-live="polite"></div>
+<script src="app.js?v=2026112305"></script>
+</body>
+</html>
